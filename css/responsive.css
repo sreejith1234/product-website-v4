@@ -125,6 +125,9 @@
 	}
 }
 @media only screen and (max-width: 600px) {
+.col-cus{
+	width:50%;
+}
 .dpass-main {
     width: 100%;
 }
@@ -232,6 +235,8 @@
     font-size: 14px;
     font-family: 'Helvetica-Regular' !important;
     color: #777777 !important;
+    margin-bottom: 0rem;
+    line-height: 20px;
 }
 .student p{
 	text-align: left;
@@ -273,7 +278,8 @@
 }
 .student p {
   position: relative;
-  top: 5px;
+  top: 0px;
+    margin-top: 0px;
   text-transform: initial;
 }
 .student p:nth-child(2) {
@@ -365,8 +371,12 @@
 	.about-content-sub1_rv{
 		margin-top: 0px;
 	}
-	.about-content-sub2_rv, .about-content-sub3_rv{
+	.about-content-sub3_rv{
 		margin-top: 15px;
+	}
+	.about-content-sub2_rv{
+		margin-top: 30px;
+    	margin-bottom: 30px;
 	}
 	.hmv_content{
 		display: none;
@@ -486,7 +496,7 @@
 	.footer .col-6 {
     	flex: 0 0 auto;
     	width: 100%;
-    	padding-top: 50px;
+    	padding-top: 0px;
 	}
 	.footer-logo{
 		align-items: center;
@@ -498,6 +508,7 @@
 	}
 	.footer-logo-img {
     	width: 100%;
+    	display: none;
     }
     .footer-logo-img img{
     	width: 20%;
