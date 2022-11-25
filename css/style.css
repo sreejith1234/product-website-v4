@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+@import url("fontawesome.css");
 @font-face {
   font-family: Helvetica;
   src: url(../font/Helvetica.ttf);
@@ -2392,4 +2392,179 @@ a{
     font-size: 20px;
     color: #fff;
 }
->>>>>>> 8543f30eaa42602b65b59f6609aae449abeed725
+.flag-section{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.loaction-icon i{
+    font-size: 16px;
+    color: #9d9fab;
+}
+.flag{
+    width:50px;
+    padding: 10px;
+}
+.flag img{
+    width:100%;
+    border-radius: 2px;
+}
+
+/*index*/
+.cls-1 {
+fill: #e5e8f1;
+}
+.cls-16,
+.cls-2 {
+font-size: 1.5px;
+font-family: Roboto-Regular, Roboto;
+}
+.cls-3 {
+fill: #e5e8f1;
+}
+.cls-4 {
+letter-spacing: -0.01em;
+}
+.cls-5 {
+letter-spacing: 0em;
+}
+.cls-6 {
+letter-spacing: -0.02em;
+}
+.cls-7 {
+fill: #e5e8f1;
+}
+.cls-8 {
+letter-spacing: -0.01em;
+}
+.cls-9 {
+letter-spacing: -0.02em;
+}
+.cls-10 {
+letter-spacing: -0.04em;
+}
+.cls-11 {
+fill: #e5e8f1;
+}
+.cls-12 {
+letter-spacing: 0.02em;
+}
+.cls-13 {
+fill: #e5e8f1;
+}
+.cls-14 {
+letter-spacing: 0em;
+}
+.cls-15 {
+fill: #101d42;
+}
+.cls-16 {
+fill: #fff;
+}
+.cls-17 {
+letter-spacing: -0.02em;
+}
+.text-cap {
+font-family: Roboto-Light !important;
+font-size: 26px;
+fill: #fff;
+color:#fff;
+}
+.text-cap-sub {
+font-family: 'Roboto-Light' !important;
+font-weight: 300;
+font-size: 24px;
+fill: #afafaf;
+color: #afafaf;
+}
+.text-cap-sub_1 {
+font-family: 'Roboto-Light' !important;
+font-weight: 300;
+font-size: 24px;
+fill: #fff;
+}
+.text-cap-sub-2 {
+    font-family: 'Roboto-Light' !important;
+    font-weight: 300;
+    font-size: 14px;
+    fill: #ffffff;
+}
+.text-cap-sub-1 {
+font-family: 'Roboto-Light' !important;
+font-weight: 300;
+font-size: 16px;
+fill: #afafaf;
+}
+.content-split {
+transform: translate(0%, 0%);
+}
+.timeline-split {
+text-align: left;
+width: 100% !important;
+margin-left: 0px !important;
+margin-top: 0px !important;
+display: flex;
+}
+.split-1,
+.split-2 {
+width: 50%;
+padding: 5px 0px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.hidden-line {
+border-bottom: solid #ffffff00 1px;
+height: 0px;
+}
+#Layer_51 text {
+font-weight: 500 !important;
+font-family: 'Roboto-Bold' !important;
+cursor: pointer;
+}
+.split-icon {
+font-size: 14px;
+color: #767778;
+}
+.timeline-text-reg {
+color: #767778;
+}
+.timeline-text-bold {
+color: #042480;
+}
+.rect_1{
+fill:rgb(16, 29, 66);
+}
+.showcase_bold{
+    font-family: 'Roboto-Regular' !important;
+}
+.prep_parm{
+    position: relative;
+    right: 60px;
+    top: -150px;
+    float: right;
+    text-align: center;
+    display: none;
+}
+.prep_parm_1{
+    font-size: 25px;
+    color: #828282;
+    font-family: 'Roboto-Light';
+}
+.prep_parm_2{
+    font-size: 30px;
+    color: #101d42;
+    font-family: 'Roboto-Regular';
+}
+.card-main-section{
+    text-align: left;
+    padding: 42px 53px;
+}
+.card-main-section .about-sub2{
+    line-height: 30px;
+}
+
+.text-less{font-size:16px !important;}
+.about-head{font-family: 'Roboto-Light'!important;font-size: 14px;margin-bottom: 10px;}
+.link{text-decoration: none;}
