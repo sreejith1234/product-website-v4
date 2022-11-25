@@ -8,10 +8,18 @@ class MyComponent extends HTMLElement {
                         <div class="col-md-6 col-sm-6 col-6 mb-6">
                             <div class="footer-logo">
                                 <div class="footer-logo-img">
-                                    <img src="logo.png">
+                                    <img src="logo.svg">
                                 </div>
                                 <div class="footer-logo-text">
-                                    <h6>Advanced Health Information Management <br> and Social Analytics (AHIMSA)</h6>
+                                    <h6 class="text-dark">
+                                        <span class="txt-caps">A</span><span class="txt-reg">dvanced</span> 
+                                        <span class="txt-caps">H</span><span class="txt-reg">ealth</span> 
+                                        <span class="txt-caps">I</span><span class="txt-reg">nformation</span>
+                                        <span class="txt-caps">M</span><span class="txt-reg">anagement</span><br><span class="txt-reg">&</span>
+                                        <span class="txt-caps">S</span><span class="txt-reg">ocial</span> 
+                                        <span class="txt-caps">A</span><span class="txt-reg">nalytics</span> 
+                                        <span class="txt-reg">(ahimsa.global)</span>
+                                    </h6>
                                 </div>
                             </div>
                             <div class="footer-contact">
@@ -24,22 +32,22 @@ class MyComponent extends HTMLElement {
                                 <h6 class="text-sm">Our Products</h6>
                                 <ul class="flex-column ms-n3 nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="#">
                                             Tele Health
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="#">
                                             PREP
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="#" target="_blank">
                                             Structural Heart Disease - Asia Pacific
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="#">
                                             Datavaultforhealth
                                         </a>
                                     </li>
@@ -51,22 +59,22 @@ class MyComponent extends HTMLElement {
                                 <h6 class="text-sm">Quick Links</h6>
                                 <ul class="flex-column ms-n3 nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="#">
                                             Services
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="contact.html" >
                                             Contact Us
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="#">
                                             Terms & Conditions
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="" target="_blank">
+                                        <a class="nav-link" href="#">
                                             Privacy Policy
                                         </a>
                                     </li>
@@ -79,7 +87,7 @@ class MyComponent extends HTMLElement {
             <div class="col-12" style="background:#060814;padding:20px;">
                 <div class="copyright-inner">
                     <p class="text-sm mb-0 copyright">
-                        Copyright © 2022 Ahimsa
+                        Copyright © 2022 ahimsa.global
                     </p>
                     <ul class="social-icon d-flex flex-row ms-n3 nav">
                         <li class="nav-item">

@@ -14,7 +14,7 @@ FamilyNameNative:AG_Helvetica
 StyleNameNative:Bold
 FullNameNative:AG_Helvetica Bold
 WritingScript:Cyrillic
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\AG_Helvetica Bold.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\AG_Helvetica Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -37,7 +37,7 @@ FullName:Helvetica‭ ‬עבה
 MenuName:Helvetica
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\Helvetica-Bold.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Helvetica-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -61,7 +61,7 @@ FullName:Helvetica Bold Oblique
 MenuName:Helvetica
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\Helvetica-BoldOblique.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Helvetica-BoldOblique.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -85,7 +85,7 @@ FullName:Helvetica Oblique
 MenuName:Helvetica
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\Helvetica-Oblique.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Helvetica-Oblique.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -109,7 +109,7 @@ FullName:Helvetica Regular
 MenuName:Helvetica
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\Helvetica-Regular.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Helvetica-Regular.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -132,7 +132,7 @@ FullName:Helvetica
 MenuName:Helvetica
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\Helvetica.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Helvetica.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -156,7 +156,7 @@ FullName:Roboto Bold
 MenuName:Roboto
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\Roboto-Bold.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Roboto-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -173,6 +173,31 @@ NameArray:0,Win,1,Roboto
 %BeginFont
 Handler:DirectoryHandler
 FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+FullName:Roboto Light
+MenuName:Roboto Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Roboto-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:140276
+FileModTime:1668665052
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Light
+NameArray:0,Mac,4,Roboto Light
+NameArray:0,Win,1,Roboto Light
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
 FontName:Roboto-Regular
 FamilyName:Roboto
 StyleName:Regular
@@ -180,7 +205,7 @@ FullName:Roboto Regular
 MenuName:Roboto
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\Roboto-Regular.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\Roboto-Regular.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -204,7 +229,7 @@ FullName:Helvetica Compressed
 MenuName:Helvetica Compressed
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\helvetica-compressed-5871d14b6903a.otf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\helvetica-compressed-5871d14b6903a.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -229,7 +254,7 @@ FullName:Helvetica Light
 MenuName:Helvetica Light
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\helvetica-light-587ebe5a59211.ttf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\helvetica-light-587ebe5a59211.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
@@ -252,7 +277,7 @@ FullName:Helvetica Rounded Bold
 MenuName:Helvetica Rounded
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-v2\Font\helvetica-rounded-bold-5871d05ead8de.otf
+OutlineFileName:C:\Users\cirakas\Desktop\xd-product-website-singlepage\Font\helvetica-rounded-bold-5871d05ead8de.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
