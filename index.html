@@ -668,7 +668,7 @@
                     <div class="our_team_test_rev testimonial">
                         <div class="row">
                             <div class="team_head_rev">
-                                <h4>Team @ AG</h4>
+                                <h4>Team AG</h4>
                                 <p>We make it Happen...</p>
                             </div>
                         </div>
@@ -719,7 +719,7 @@
             </section>
             <div class="col-lg-12 our-team_rev">
                 <div class="services_head_rev">
-                    <h1>Our Strengths</h1>
+                    <h1>Our Strength</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div id="box-main_rev">
@@ -765,7 +765,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="453" height="81" viewBox="0 0 453 81">
                     <g id="Group_28042" data-name="Group 28042" transform="translate(-121 -3649)">
                         <text id="Services" transform="translate(121 3660)" fill="#7993cb" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700">
-                            <tspan x="0" y="0">Our Strengths</tspan>
+                            <tspan x="0" y="0">Our Strength</tspan>
                         </text>
                         <text id="trr" data-name="" transform="translate(121 3696)" font-size="24" font-family="Roboto-Bold, Roboto" font-weight="700">
                             <tspan x="0" y="0">Lorem Ipsum is simply dummy text of the </tspan>
@@ -777,37 +777,6 @@
             <div id="box-main">
                 <div id="box" class="container-fluid scroll-section">
                     <svg class="scroll-svg" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3122.72 1262.06">
-                        <defs>
-                            <style>
-                            .rectangle-fill {
-                                fill: #252645;
-                            }
-
-                            .scroll-head tspan {
-                                fill: #fff;
-                                font-family: 'Roboto-Bold' !important;
-                                font-size: 50px;
-                            }
-
-                            .scroll-sub tspan {
-                                fill: #fff;
-                                font-family: 'Roboto-Regular' !important;
-                                font-size: 30px;
-                                font-weight: 200;
-                            }
-
-                            .scroll-img img {
-                                width: 100%;
-                                height: 100%;
-                                border-radius: 50px;
-                            }
-
-                            .scroll-img {
-                                width: 640px !important;
-                                height: 500px !important;
-                            }
-                            </style>
-                        </defs>
                         <foreignObject class="scroll-img" transform="translate(850 50)">
                             <img src="img/scroll_2.webp"></img>
                         </foreignObject>
@@ -1071,40 +1040,9 @@
                 }
             }, 50);
         }
-        $("a[href^='#']").click(function(e) {
-    e.preventDefault();
-    
-    var position = $($(this).attr("href")).offset().top;
-
-    $("body, html").animate({
-        scrollTop: position
-    } /* speed */ );
-});
     });
     </script>
-    <!-- <script type="text/javascript">
 
-
-jQuery(function ($) {
-    $.fn.hScroll = function (amount) {
-        amount = amount || 120;
-        $(this).bind("DOMMouseScroll mousewheel", function (event) {
-            var oEvent = event.originalEvent, 
-                direction = oEvent.detail ? oEvent.detail * -amount : oEvent.wheelDelta, 
-                position = $(this).scrollLeft();
-            position += direction > 0 ? -amount : amount;
-            $(this).scrollLeft(position);
-            event.preventDefault();
-        })
-    };
-});
-
-$(document).ready(function() {
-    $('#box').hScroll(60); // You can pass (optionally) scrolling amount
-});
-
-
-  </script> -->
 </body>
 
 </html>
