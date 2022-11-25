@@ -125,6 +125,12 @@
 	}
 }
 @media only screen and (max-width: 600px) {
+.Marquee-content{
+	animation: marquee 35s linear infinite running;
+}
+.Marquee-tag {
+    width: 100%;
+}
 .col-cus{
 	width:50%;
 }
