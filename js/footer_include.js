@@ -11,20 +11,18 @@ class MyComponent extends HTMLElement {
                                     <img src="logo.svg">
                                 </div>
                                 <div class="footer-logo-text">
-                                    <h6 class="text-dark">
-                                        <span class="txt-caps">A</span><span class="txt-reg">dvanced</span> 
-                                        <span class="txt-caps">H</span><span class="txt-reg">ealth</span> 
-                                        <span class="txt-caps">I</span><span class="txt-reg">nformation</span>
-                                        <span class="txt-caps">M</span><span class="txt-reg">anagement</span><br><span class="txt-reg">&</span>
-                                        <span class="txt-caps">S</span><span class="txt-reg">ocial</span> 
-                                        <span class="txt-caps">A</span><span class="txt-reg">nalytics</span> 
-                                        <span class="txt-reg">(ahimsa.global)</span>
+                                    <h6 class="text-dark"> 
+                                        <span class="txt-reg">ahimsa.global</span>
                                     </h6>
                                 </div>
                             </div>
                             <div class="footer-contact">
-                                <p class="mt-3 mb-1 opacity-8">Jade 4, Roelofarendsveen, 2371 LB, Netherlands</p>
-                                <p class="mt-2 mb-3 opacity-8">+31.643876161, info@ahimsa.global</p>
+                                <div class="flag-section">
+                                    <div class="flag"><img src="img/new_zealand.png"></div>
+                                    <div class="flag"><img src="img/netherland.png"></div>
+                                    <div class="flag"><img src="img/usa.png"></div>
+                                    <div class="flag"><img src="img/india.png"></div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-6 mb-6">
@@ -42,7 +40,7 @@ class MyComponent extends HTMLElement {
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#" target="_blank">
+                                        <a class="nav-link" href="#">
                                             Structural Heart Disease - Asia Pacific
                                         </a>
                                     </li>
