@@ -1,17 +1,5 @@
 @import url("fontawesome.css");
 @font-face {
-  font-family: Helvetica;
-  src: url(../font/Helvetica.ttf);
-}
-@font-face {
-  font-family: Helvetica-Regular;
-  src: url(../font/Helvetica-Regular.ttf);
-}
-@font-face {
-  font-family: Helvetica-Bold;
-  src: url(../font/Helvetica-Bold.ttf);
-}
-@font-face {
   font-family: Roboto-Light;
   src: url(../font/Roboto-Light.ttf);
 }
@@ -27,6 +15,7 @@ body{
     color: #101d42;
 }
 *{
+    font-family: 'Roboto-Light';
     margin: 0px;
     padding:  0px;
 }
