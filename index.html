@@ -14,8 +14,161 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <style>.carousel-inner{height:100vh} .slider-container{max-width: 100%; height: 100%; position: absolute; top: 0; left: 0; } .hide-container-bg::before{width: 0px !important; } .carousel-caption {position: absolute; left: 25%; top: 17%; width: 50%; } .carousel-caption-2 {position: absolute; left: 38%; top: 25%; width: 50%; } .slider-bg-b{fill: #054084; } .carousel-control-prev, .carousel-control-next{display: none !important; } .slider1-text-1{text-align: left;color: #ffffff;font-size:40px;font-weight:300;font-family: 'Roboto-Light'!important;} .slider1-text-2 p{text-align: left;color:#afafaf;font-size:20px;font-family: 'Roboto-Regular'; } .carousel-indicator {position: absolute; bottom: 5%; left: 0%; z-index: 2; justify-content: center; padding: 0; margin: 0; list-style: none; } .carousel-indicator button {display: block; list-style: none; text-indent: -99999px; border: 2px solid #c1c1c1; background: #fff !important; width: 15px !important; height: 15px !important; border-radius: 50% !important; margin: 10px 5px 10px 5px !important; transition: .25s ease; cursor: pointer; opacity: 1 !important; border: none !important; } .carousel-indicator .active{background: #56a1d0 !important; padding: 0px 10px !important; border-radius: 50px !important; border: solid 1px #fff !important; } .nut {padding: 11px 8px; background-color: #ffffff; border-radius: 50px; color: #000; border: none; text-transform: uppercase;text-align: center; width: 130px; margin: 22px 0px 0px 0px;cursor:pointer;font-size: 14px; } .nut:hover{background-color:#101d42;color:#fff; }.text-high{font-size:18px !important;color: #fff !important;}.text-less{font-size:16px !important;}.link{text-decoration: none;}.slider-img {width: 100%;display: block;}
-
+</head>
+    <style>.carousel-inner{height:100vh} .slider-container{max-width: 100%; height: 100%; position: absolute; top: 0; left: 0; } .hide-container-bg::before{width: 0px !important; } .carousel-caption {position: absolute; left: 25%; top: 17%; width: 50%; } .carousel-caption-2 {position: absolute; left: 38%; top: 25%; width: 50%; } .slider-bg-b{fill: #054084; } .carousel-control-prev, .carousel-control-next{display: none !important; } .slider1-text-1{text-align: left;color: #ffffff;font-size:40px;font-weight:300;font-family: 'Roboto-Light'!important;} .slider1-text-2 p{text-align: left;color:#afafaf;font-size:20px;font-family: 'Roboto-Regular'; } .carousel-indicator {position: absolute; bottom: 5%; left: 0%; z-index: 2; justify-content: center; padding: 0; margin: 0; list-style: none; } .carousel-indicator button {display: block; list-style: none; text-indent: -99999px; border: 2px solid #c1c1c1; background: #fff !important; width: 15px !important; height: 15px !important; border-radius: 50% !important; margin: 10px 5px 10px 5px !important; transition: .25s ease; cursor: pointer; opacity: 1 !important; border: none !important; } .carousel-indicator .active{background: #56a1d0 !important; padding: 0px 10px !important; border-radius: 50px !important; border: solid 1px #fff !important; } .nut {padding: 11px 8px; background-color: #ffffff; border-radius: 50px; color: #000; border: none; text-transform: uppercase;text-align: center; width: 130px; margin: 22px 0px 0px 0px;cursor:pointer;font-size: 14px; } .nut:hover{background-color:#101d42;color:#fff; }.text-high{font-size:18px !important;color: #fff !important;}.text-less{font-size:16px !important;}.about-head{font-family: 'Roboto-Light'!important;font-size: 14px;margin-bottom: 10px;}.link{text-decoration: none;}.slider-img {width: 100%;display: block;}
+.cls-1 {
+fill: #e5e8f1;
+}
+.cls-16,
+.cls-2 {
+font-size: 1.5px;
+font-family: Roboto-Regular, Roboto;
+}
+.cls-3 {
+fill: #e5e8f1;
+}
+.cls-4 {
+letter-spacing: -0.01em;
+}
+.cls-5 {
+letter-spacing: 0em;
+}
+.cls-6 {
+letter-spacing: -0.02em;
+}
+.cls-7 {
+fill: #e5e8f1;
+}
+.cls-8 {
+letter-spacing: -0.01em;
+}
+.cls-9 {
+letter-spacing: -0.02em;
+}
+.cls-10 {
+letter-spacing: -0.04em;
+}
+.cls-11 {
+fill: #e5e8f1;
+}
+.cls-12 {
+letter-spacing: 0.02em;
+}
+.cls-13 {
+fill: #e5e8f1;
+}
+.cls-14 {
+letter-spacing: 0em;
+}
+.cls-15 {
+fill: #101d42;
+}
+.cls-16 {
+fill: #fff;
+}
+.cls-17 {
+letter-spacing: -0.02em;
+}
+.text-cap {
+font-family: Roboto-Light !important;
+font-size: 26px;
+fill: #fff;
+color:#fff;
+}
+.text-cap-sub {
+font-family: 'Roboto-Light' !important;
+font-weight: 300;
+font-size: 24px;
+fill: #afafaf;
+color: #afafaf;
+}
+.text-cap-sub_1 {
+font-family: 'Roboto-Light' !important;
+font-weight: 300;
+font-size: 24px;
+fill: #fff;
+}
+.text-cap-sub-2 {
+    font-family: 'Roboto-Light' !important;
+    font-weight: 300;
+    font-size: 14px;
+    fill: #ffffff;
+}
+.text-cap-sub-1 {
+font-family: 'Roboto-Light' !important;
+font-weight: 300;
+font-size: 16px;
+fill: #afafaf;
+}
+.content-split {
+transform: translate(0%, 0%);
+}
+.timeline-split {
+text-align: left;
+width: 100% !important;
+margin-left: 0px !important;
+margin-top: 0px !important;
+display: flex;
+}
+.split-1,
+.split-2 {
+width: 50%;
+padding: 5px 0px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.hidden-line {
+border-bottom: solid #ffffff00 1px;
+height: 0px;
+}
+#Layer_51 text {
+font-weight: 500 !important;
+font-family: 'Roboto-Bold' !important;
+cursor: pointer;
+}
+.split-icon {
+font-size: 14px;
+color: #767778;
+}
+.timeline-text-reg {
+color: #767778;
+}
+.timeline-text-bold {
+color: #042480;
+}
+.rect_1{
+fill:rgb(16, 29, 66);
+}
+.showcase_bold{
+    font-family: 'Roboto-Regular' !important;
+}
+.prep_parm{
+    position: relative;
+    right: 60px;
+    top: -150px;
+    float: right;
+    text-align: center;
+    display: none;
+}
+.prep_parm_1{
+    font-size: 25px;
+    color: #828282;
+    font-family: 'Roboto-Light';
+}
+.prep_parm_2{
+    font-size: 30px;
+    color: #101d42;
+    font-family: 'Roboto-Regular';
+}
+.card-main-section{
+    text-align: left;
+    padding: 42px 53px;
+}
+.card-main-section .about-sub2{
+    line-height: 30px;
+}
+>>>>>>> 8543f30eaa42602b65b59f6609aae449abeed725
 </style>
 </head>
 
