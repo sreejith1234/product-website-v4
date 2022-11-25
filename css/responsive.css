@@ -143,6 +143,22 @@
 }
 
 @media only screen and (max-width: 600px) {
+	.footer-head{
+		margin-bottom: 50px;
+	}
+	.prep_parm {
+    	position: relative;
+    	right: 15px;
+    	top: -30px;
+	}
+	.showcase p {
+    	font-size: 14px;
+	}
+	.flag-section {
+    	padding-top: 7px;
+    	padding-left: 7px;
+    	padding-bottom: 30px;
+	}
     .Marquee-content {
         animation: marquee 35s linear infinite running;
     }
@@ -326,7 +342,7 @@
 
     .student {
         margin-left: 25px;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
 
     .student .photo {
@@ -609,9 +625,11 @@
     }
 
     .footer-contact {
-        padding-left: 4%;
+        padding-left: 0%;
     }
-
+    .footer-logo-text .txt-reg{
+    	color:#101d42;
+    }
     .footer-logo-img {
         width: 100%;
         display: none;
