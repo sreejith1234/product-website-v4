@@ -1756,12 +1756,12 @@ body{
 }
 .our-team h3{
     font-size: 24px;
-    font-family: 'Helvetica-Bold' !important;
+    font-family: 'Roboto-Light' !important;
 }
 .our-team h4{
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
-    font-family: 'Helvetica-Bold' !important;
+    font-family: 'Roboto-Light' !important;
 }
 .footer{
     display: block;
@@ -2206,6 +2206,7 @@ body{
 }
 .team_activit{
     margin-top:50px;
+    font-family: 'Roboto-Light' !important;
 }
 .our_team_test_rev{
     display: none;
