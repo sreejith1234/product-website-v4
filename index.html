@@ -20,9 +20,18 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
     <style>.carousel-inner{height:100vh} .slider-container{max-width: 100%; height: 100%; position: absolute; top: 0; left: 0; } .hide-container-bg::before{width: 0px !important; } .carousel-caption {position: absolute; left: 25%; top: 17%; width: 50%; } .carousel-caption-2 {position: absolute; left: 38%; top: 25%; width: 50%; } .slider-bg-b{fill: #054084; } .carousel-control-prev, .carousel-control-next{display: none !important; } .slider1-text-1{text-align: left;color: #ffffff;font-size:40px;font-weight:300;font-family: 'Roboto-Light'!important;} .slider1-text-2 p{text-align: left;color:#afafaf;font-size:20px;font-family: 'Roboto-Regular'; } .carousel-indicator {position: absolute; bottom: 5%; left: 0%; z-index: 2; justify-content: center; padding: 0; margin: 0; list-style: none; } .carousel-indicator button {display: block; list-style: none; text-indent: -99999px; border: 2px solid #c1c1c1; background: #fff !important; width: 15px !important; height: 15px !important; border-radius: 50% !important; margin: 10px 5px 10px 5px !important; transition: .25s ease; cursor: pointer; opacity: 1 !important; border: none !important; } .carousel-indicator .active{background: #56a1d0 !important; padding: 0px 10px !important; border-radius: 50px !important; border: solid 1px #fff !important; } .nut {padding: 11px 8px; background-color: #ffffff; border-radius: 50px; color: #000; border: none; text-transform: uppercase;text-align: center; width: 130px; margin: 22px 0px 0px 0px;cursor:pointer;font-size: 14px; } .nut:hover{background-color:#101d42;color:#fff; }.text-high{font-size:18px !important;color: #fff !important;}.slider-img {width: 100%;display: block;}
 
-</style>
+
+        /** to hide dots
+        .owl-theme .owl-dots .owl-dot{ display:none!important;}
+        **/
+        .owl-stage{
+            transform: translate3d(-18712px, 0px, 0px); transition: all 0.25s ease 0s; width: 35928px;
+        }
+    </style>
 </head>
 
 <body class="overflow-hidden-x">
@@ -362,7 +371,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12 col-md-12 position-relative">
-                                <h1 class="text-gradient text-count-cus"><span>360 VIEW</span></h1>
+                                <h1 class="text-gradient text-count-cus"><span>360<sup>0</sup> VIEW</span></h1>
                                 <p class="text-sm text-p-cus">from referral to discharge of a patient</p>
                             </div>
                             <div class="col-md-12 position-relative">
@@ -583,84 +592,52 @@
                         </div>
                         <div class="entry timeline-empty"></div>
                     </div>
-                    <div class="our_team_test container-fluid" style="margin-top:-296px;padding-bottom: 200px;">
+                    <div class="our_team_test container-fluid" style="margin-top:-275px;padding-bottom: 50px;">
                         <div class="row">
                             <div class="col-lg-6 our-team">
                                 <h4 class="text-white">Team AG</h4>
+
                                 <h3 class="text-white">We make it Happen...</h3>
                             </div>
-                            <div class="col-lg-12" id="container">
-                                <div class="testimonial" id="posts">
-                                    <div class="items">
-                                        <div class="img1">
-                                            <div class="testimonial-img">
-                                                <div class="text-one">
-                                                    <h5>Founder, CEO</h5>
-                                                    <h3>Nathan Weems</h3>
-                                                    <p>Lorem Ipsum has been the industry's</p>
+                            <style>
+                                
+                            </style>
+                            <div class="owl-carousel owl-theme owl-loaded owl-drag">
+                                <div class="owl-stage-outer">
+                                    <div class="owl-stage">
+                                        <div class="owl-item cloned">
+                                            <div class="item">
+                                                <div class="owl_main">
+                                                    <div class="owl_section1">
+                                                        <div class="owl-user-card1">
+                                                            <div class="owl-user-img1">
+                                                                <img src="img/r1.jpg">
+                                                            </div>
+                                                            <h5>Managing Director</h5>
+                                                            <h3>Raja Lekshmi</h3>
+                                                            <a href="">LinkedIn</a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <img src="img/u1.png">
                                             </div>
                                         </div>
-                                        <div class="card1">
-                                            <div class="testimonial-card"></div>
-                                        </div>
-                                    </div>
-                                    <div class="items">
-                                        <div class="card2">
-                                            <div class="testimonial-card"></div>
-                                        </div>
-                                        <div class="img2">
-                                            <div class="testimonial-img">
-                                                <div class="text-two">
-                                                    <h5>Technology Officer</h5>
-                                                    <h3>Imran Qureshi</h3>
-                                                    <p>Lorem Ipsum has been the industry's</p>
+                                         <div class="owl-item cloned">
+                                            <div class="item">
+                                                <div class="owl_main">
+                                                    <div class="owl_section2">
+                                                        <div class="owl-user-img2">
+                                                            <img src="img/a2.jpg">
+                                                            <div class="owl-user-card2">  
+                                                                <h5>Architect</h5>
+                                                                <h3>Arun Kumar</h3>
+                                                                <a href="">LinkedIn</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <img src="img/u2.png">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="items">
-                                        <div class="img1">
-                                            <div class="testimonial-img">
-                                                <div class="text-one">
-                                                    <h5>Founder, CEO</h5>
-                                                    <h3>Nathan Weems</h3>
-                                                    <p>Lorem Ipsum has been the industry's</p>
-                                                </div>
-                                                <img src="img/u1.png">
-                                            </div>
-                                        </div>
-                                        <div class="card1">
-                                            <div class="testimonial-card"></div>
-                                        </div>
-                                    </div>
-                                    <div class="items">
-                                        <div class="card2">
-                                            <div class="testimonial-card"></div>
-                                        </div>
-                                        <div class="img2">
-                                            <div class="testimonial-img">
-                                                <div class="text-two">
-                                                    <h5>Technology Officer</h5>
-                                                    <h3>Imran Qureshi</h3>
-                                                    <p>Lorem Ipsum has been the industry's</p>
-                                                </div>
-                                                <img src="img/u2.png">
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="slider-btn">
-                                <div class="right-arrow" onclick="slide1('right')">
-                                    <div class="right-arrow-one"></div>
-                                    <div class="right-arrow-two"></div>
-                                </div>
-                                <div class="left-arrow" onclick="slide1('left')">
-                                    <div class="left-arrow-one"></div>
-                                    <div class="left-arrow-two"></div>
                                 </div>
                             </div>
                         </div>
@@ -672,26 +649,21 @@
                                 <p>We make it Happen...</p>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="testimonial_rev testimonial">
-                                <div class="quote">
-                                    <p>Lorem Ipsum has been the industry's</p>
-                                </div>
                                 <div class="student">
-                                    <div class="photo"><img src="img/u1.png"> </div>
-                                    <p>Technology Officer</p>
-                                    <p>Imran Qureshi</p>
+                                    <div class="photo"><img src="img/r1.jpg"> </div>
+                                    <p>Managing Director</p>
+                                    <p>Raja Lekshmi</p>
                                 </div>
                             </div>
                             <div class="testimonial_rev testimonial">
-                                <div class="quote">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
                                 <div class="student">
-                                    <div class="photo"> <img src="img/u2.png">
+                                    <div class="photo"> <img src="img/a2.jpg">
                                     </div>
-                                    <p>Founder, CEO</p>
-                                    <p>Nathan Weems</p>
+                                    <p>Architect</p>
+                                    <p>Arun Kumar</p>
                                 </div>
                             </div>
                         </div>
@@ -709,10 +681,16 @@
                 <div class="Marquee">
                     <div class="Marquee-content">
                         <div class="Marquee-tag">
-                            <img src="img/photo-grid.png" alt="" />
+                            <img src="img/photo-grid.webp" alt="">
                         </div>
                         <div class="Marquee-tag">
-                            <img src="img/photo-grid.png" alt="" />
+                            <img src="img/photo-grid.webp" alt="">
+                        </div>
+                        <div class="Marquee-tag">
+                            <img src="img/photo-grid.webp" alt="">
+                        </div>
+                        <div class="Marquee-tag">
+                            <img src="img/photo-grid.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -764,7 +742,7 @@
             <div class="col-lg-12 our-team" style="margin-top:100px">
                 <svg xmlns="http://www.w3.org/2000/svg" width="453" height="81" viewBox="0 0 453 81">
                     <g id="Group_28042" data-name="Group 28042" transform="translate(-121 -3649)">
-                        <text id="Services" transform="translate(121 3660)" fill="#7993cb" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700">
+                        <text id="Services" transform="translate(121 3660)" fill="#7993cb" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700">
                             <tspan x="0" y="0">Our Strength</tspan>
                         </text>
                         <text id="trr" data-name="" transform="translate(121 3696)" font-size="24" font-family="Roboto-Bold, Roboto" font-weight="700">
@@ -880,24 +858,107 @@
                     <path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,23L26.7,34.5C53.3,46,107,69,160,69C213.3,69,267,46,320,34.5C373.3,23,427,23,480,46C533.3,69,587,115,640,141.8C693.3,169,747,176,800,176.3C853.3,176,907,169,960,141.8C1013.3,115,1067,69,1120,42.2C1173.3,15,1227,8,1280,26.8C1333.3,46,1387,92,1440,99.7C1493.3,107,1547,77,1600,53.7C1653.3,31,1707,15,1760,34.5C1813.3,54,1867,107,1920,134.2C1973.3,161,2027,161,2080,138C2133.3,115,2187,69,2240,49.8C2293.3,31,2347,38,2400,46C2453.3,54,2507,61,2560,76.7C2613.3,92,2667,115,2720,134.2C2773.3,153,2827,169,2880,145.7C2933.3,123,2987,61,3040,34.5C3093.3,8,3147,15,3200,49.8C3253.3,84,3307,146,3360,164.8C3413.3,184,3467,161,3520,138C3573.3,115,3627,92,3680,69C3733.3,46,3787,23,3813,11.5L3840,0L3840,230L3813.3,230C3786.7,230,3733,230,3680,230C3626.7,230,3573,230,3520,230C3466.7,230,3413,230,3360,230C3306.7,230,3253,230,3200,230C3146.7,230,3093,230,3040,230C2986.7,230,2933,230,2880,230C2826.7,230,2773,230,2720,230C2666.7,230,2613,230,2560,230C2506.7,230,2453,230,2400,230C2346.7,230,2293,230,2240,230C2186.7,230,2133,230,2080,230C2026.7,230,1973,230,1920,230C1866.7,230,1813,230,1760,230C1706.7,230,1653,230,1600,230C1546.7,230,1493,230,1440,230C1386.7,230,1333,230,1280,230C1226.7,230,1173,230,1120,230C1066.7,230,1013,230,960,230C906.7,230,853,230,800,230C746.7,230,693,230,640,230C586.7,230,533,230,480,230C426.7,230,373,230,320,230C266.7,230,213,230,160,230C106.7,230,53,230,27,230L0,230Z"></path>
                 </svg>
             </div>
-            <footer-component></footer-component>
+            <section class="footer-main">
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class=" row">
+                        <div class="col-md-3 col-sm-6 col-6 mb-6">
+                            <div class="footer-logo">
+                                <div class="footer-logo-img">
+                                    <img src="logo.svg">
+                                </div>
+                                <div class="footer-logo-text">
+                                    <h6 class="text-dark"> 
+                                        <span class="txt-reg">ahimsa.global</span>
+                                    </h6>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6 mb-6">
+                            <div class="footer-contact">
+                                <div class="flag-section">
+                                    <div class="flag"><img src="img/new_zealand.png" data-toggle="tooltip" data-placement="top" title="NZ"></div>
+                                    <div class="flag"><img src="img/netherland.png" data-toggle="tooltip" data-placement="top" title="NL"></div>
+                                    <div class="flag"><img src="img/usa.png" data-toggle="tooltip" data-placement="top" title="USA"></div>
+                                    <div class="flag"><img src="img/india.png" data-toggle="tooltip" data-placement="top" title="IND"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-6 mb-6">
+                            <div class="footer-head">
+                                <h6 class="text-sm">Our Products</h6>
+                                <ul class="ms-n3 nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Layer_51">
+                                            HTM
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Layer_51">
+                                            SHD - AP
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Layer_51">
+                                            EDC / eCRF
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Layer_51">
+                                            WL-Modeling
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Layer_51">
+                                            PREP
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" style="background:#060814;padding:20px;">
+                <div class="copyright-inner">
+                    <p class="text-sm mb-0 copyright">
+                        Copyright © 2022 ahimsa.global
+                    </p>
+                    <ul class="social-icon d-flex flex-row ms-n3 nav">
+                        <li class="nav-item">
+                            <a class="nav-link pe-1" href="" target="_blank">
+                                <i class="fa fa-facebook text-lg opacity-8" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-1" href="" target="_blank">
+                                <i class="fa fa-linkedin text-lg opacity-8" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-1" href="" target="_blank">
+                                <i class="fa fa-twitter text-lg opacity-8" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pe-1" href="" target="_blank">
+                                <i class="fa fa-youtube text-lg opacity-8" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         </div>
     </div>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/footer_include.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script>
     $(document).ready(function() {
 
-        $(".menu_icon").click(function() {
-            $(".section-sidebar").show();
-        });
-        $(".hide_icon").click(function() {
-            $(".section-sidebar").hide();
-        });
-        $(".products").click(function() {
-            $(".section-sidebar").hide();
-        });
         $('#p1').hover(function() {
             $("#datavault").hide();
             $("#htm").show();
@@ -906,7 +967,6 @@
         }, function() {
             $("#datavault").show();
             $("#htm").hide();
-            // on mouseout, reset the background colour
             $('#p1').css('fill', '#e5e8f1');
             $('#pt1').css('fill', '#101d42');
         });
@@ -1023,23 +1083,25 @@
         });
         $('.carousel').carousel({
             interval: 5000
-        })
+        });
 
-        function slide1(direction) {
-            var container = document.getElementById('container');
-            scrollCompleted = 0;
-            var slideVar = setInterval(function() {
-                if (direction == 'left') {
-                    container.scrollLeft -= 100;
-                } else {
-                    container.scrollLeft += 150;
-                }
-                scrollCompleted += 10;
-                if (scrollCompleted >= 150) {
-                    window.clearInterval(slideVar);
-                }
-            }, 50);
-        }
+        $("a.nav-item").click(function(event) {
+              event.preventDefault();
+              $("html, body").animate({
+                  scrollTop: $($(this).attr("href")).offset().top
+                }, 500);
+        });
+    
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 2,
+            loop: true,
+            nav: false,
+            margin: 10,
+            autoplay: false,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true
+        });
     });
     </script>
 
