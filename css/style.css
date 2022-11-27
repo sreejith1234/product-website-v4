@@ -370,7 +370,7 @@ body{
     font-size: 20px;
 }
 .text-count-cus {
-    color: #c9c9c9;
+    color: #9a9a9a;
     font-family: 'Roboto-Regular';
     font-size: 22px;
     margin-bottom: 0rem;
@@ -869,7 +869,7 @@ body{
     max-width: 3840px;
 }
 .Marquee-tag {
-  width: 100vw;
+  width: 100%;
   margin: 0em;
   padding: 0em;
   background: #fff;
@@ -1305,4 +1305,10 @@ a{
 }
 .owl-theme{
     margin-top:100px;
+}
+/** to hide dots
+    .owl-theme .owl-dots .owl-dot{ display:none!important;}
+**/
+.owl-stage{
+    transform: translate3d(-18712px, 0px, 0px); transition: all 0.25s ease 0s; width: 35928px;
 }
