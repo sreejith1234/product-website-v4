@@ -1,18 +1,25 @@
 @import url("fontawesome.css");
+
+
+
+
 @font-face {
   font-family: Roboto-Light;
-  src: url(../font/Roboto-Light.ttf);
-  font-display: swap;
+  src: urlurl('https://roboto-webfont.googlecode.com/files/Roboto-Light-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
   font-family: Roboto-Regular;
-  src: url(../font/Roboto-Regular.ttf);
-  font-display: swap;
+  src: url('https://roboto-webfont.googlecode.com/files/Roboto-Medium-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
   font-family: Roboto-Bold;
-  src: url(../font/Roboto-Bold.ttf);
-  font-display: swap;
+  src: url('https://roboto-webfont.googlecode.com/files/Roboto-Black-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 body{
     color: #101d42;
