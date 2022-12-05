@@ -18,8 +18,12 @@ body{
     padding:  0px;
 }
 .overflow-hidden-x {
-    overflow-x: hidden;
-    
+    overflow-x: hidden; 
+}
+.footer-contact h6 {
+    padding: 0 0.5rem;
+    color: #7993cb;
+    font-family: Roboto-Regular;
 }
 .fancynavbar {
     
@@ -540,7 +544,7 @@ body{
     font-family: 'Roboto-Bold';
 }
 .timeline-empty{
-    height: 300px;
+    height: 50px;
 }
 .our-team{
     text-align: left;
@@ -613,7 +617,7 @@ body{
 .copyright-inner{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0px 40px;
 }
 .social-icon li a i{
@@ -808,6 +812,7 @@ body{
 .product-section{
     width:100%;
     display:flex;
+    padding-top: 50px;
 }
 .graph{
     width:50%;
@@ -1012,7 +1017,10 @@ body{
 .cls-1 {
 fill: #e5e8f1;
 }
-.cls-16,
+.cls-16 {
+font-size: 1.2px;
+font-family: Roboto-Regular, Roboto;
+}
 .cls-2 {
 font-size: 1.5px;
 font-family: Roboto-Regular, Roboto;
